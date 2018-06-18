@@ -1,6 +1,8 @@
-//
-//package com.vik.exchange.services;
-//
-//public interface RateService {
-//    
-//}
+
+package com.vik.exchange.services;
+
+import com.vik.exchange.model.Rate;
+
+public interface RateService {
+    void addRate (Rate rate);
+}
